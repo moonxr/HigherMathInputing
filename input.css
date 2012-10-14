@@ -1,0 +1,154 @@
+
+#math_keyboard{
+	width: 30%;
+	float: left;
+}
+.line{
+	float: left;
+	padding-top: 5%;
+}
+.math_button{
+	background: url(input_images/button.gif) no-repeat;
+	width: 64px;
+	height: 34px;
+	float: left;
+	margin: 5px;
+	cursor: pointer;
+}
+.symbol{
+	padding: 9px 0 0 23px;
+	color: #3e6390;
+}
+#fen{
+	background: url(input_images/fen.gif) no-repeat;
+	height: 73px;
+}
+#mi{
+	background: url(input_images/mi.gif) no-repeat;
+	height: 73px;
+}
+#log{
+	background: url(input_images/log.gif) no-repeat;
+	height: 73px;
+}
+#lim{
+	background: url(input_images/lim.gif) no-repeat;
+	height: 73px;
+}
+#done{
+	background: url(input_images/done.gif) no-repeat;
+	height: 73px;
+}
+#math_expression{
+	border: 2px solid;
+	float: left;
+	width: 60%;
+	margin: 25px 0 0 100px;
+	padding: 10px 3px;
+}
+.ep_lim, .limit, .approach, .ep_body, .ep_body div, .power, .baseNumber, .indexNumber, .fraction, .numerator, .denominator, .ep_bracket, .operate, .operate_bracket, .logarithm, .logarithm p, .bgNumber, .antilog{
+	float: left;
+}
+.ep_lim{
+	padding: 20px 3px;
+}
+.limit{
+	font-size: 20px;
+	height: 17px;
+}
+.approach{
+	clear: left;
+	font-size: 14px;
+}
+.ep_body{
+	padding-right: 10px;
+}
+.power{
+}
+.baseNumber{
+	padding-top: 7px;
+}
+.indexNumber{
+	font-size: 14px;
+}
+.fraction{
+}
+.numerator{
+	border-bottom: solid 2px;
+	padding: 0 2px;
+}
+.denominator{
+	clear: left;
+	padding: 0 2px;
+}
+.logarithm{
+
+}
+.logarithm p{
+	margin: 0;
+}
+.bgNumber{
+	padding: 4px 0 0 1px;
+}
+.antilog{
+
+}
+.ep_bracket{
+	padding: 20px 5px;
+}
+.operate{
+	padding: 0 2px;
+}
+.operand{
+	padding: 0 2px;
+}
+.operate_bracket{
+	padding: 0 2px;
+}
+.inputGrid{
+	width: 10px;
+	height: 14px;
+	border: none;
+	font-weight: bold;
+	color: #1B4491;
+}
+/*#num0{
+	border-bottom: none;
+	outline: 0px;
+	width: 500px
+}*/
+
+.logosInput{
+	/*border: 2px solid #000;*/
+	cursor: text;
+	float: left;
+	height: 22px;
+/*	width: 20px*/
+}
+.logosContent{
+	float: left;
+	margin: 3px 1px 3px 3px;
+}
+.logosCursor{
+	border: 1px solid black;
+	margin: 2px;
+	width: 6px;
+	height: 16px;
+	float: left;
+}
+.logosInputGrid{
+	opacity: 0;
+	font-size: 1px;
+	outline: none;
+	border: none;
+	width: 1px;
+}
+
+
+
+
+
+
+
+
+
